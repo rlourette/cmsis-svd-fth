@@ -19,6 +19,11 @@ ATTENTION: the code here is bleeding edge - it has worked exactly once for exact
 ## Usage
 
 ### Needed Software
+While the older code is intact (convert.sh), I found it necessary to handle the changes that have occured in the SVD schema.
+There are now entries marked with the attribute("derivedFrom") which signifies that the entries derives from another with 
+modifications. The adaptation to the original code is now contained in convert.py.
+
+Useage: convert.py --svd <svdfile> [-o <outputfile.fs>]
 
 This code is targeted to a Unix-like environment, with the follwing tools available:
 - xsltproc
