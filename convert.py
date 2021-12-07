@@ -22,7 +22,7 @@ class CMSIS_SVD_Forth:
         svdfile = None
 
         try:
-            opts, args = getopt.getopt(argv[1:], "", ["svd="])
+            opts, args = getopt.getopt(argv[1:], "o:", ["svd="])
         except getopt.GetoptError:
             self.usage(basename(f"{argv[0]}"))
             sys.exit(1)
