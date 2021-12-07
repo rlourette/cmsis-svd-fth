@@ -6,16 +6,10 @@
 
 \ marker cm-devices
 
-
-
-
-
 : device: (  compile: "name" , addr -- ; runtime: -- addr )
     create ,
   does> @
 ;
-
-
 
 \ take value and position it in a bitfield at bitpos. Make sure the created
 \ field does not take more than bitsize digits (cut it at the MSBs)
@@ -54,4 +48,3 @@
     swap dup @
     swap @
 ;
-

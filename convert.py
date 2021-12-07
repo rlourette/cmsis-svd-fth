@@ -6,7 +6,7 @@ import getopt
 from os.path import basename
 import sys
 import re
-
+import io
 
 class CMSIS_SVD_Forth:
     def usage(self, prog):
@@ -103,7 +103,12 @@ class CMSIS_SVD_Forth:
         xslt = ET.XML(extractXSL)
         transform = ET.XSLT(xslt)
         newdom = transform(dom)
-        print(re.sub('0x', '$', str(newdom), count=0, flags=0))
+        newdomsio = io.StringIO(str(newdom))
+        for line in newdomsio:
+            line = re.sub('0x', '$', line, count=0, flags=0) # 0x to $
+            line = re.sub('Device', 'device', line, count=0, flags=0) # 0x to $
+            line = re.sub('Register', 'register', line, count=0, flags=0) # 0x to $
+            print(line, end='')
 
 if __name__ == "__main__":
     CMSIS_SVD_Forth().main(sys.argv)

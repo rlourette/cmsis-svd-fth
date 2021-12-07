@@ -1,596 +1,596 @@
-$40003000 Device: IWDG  
-              IWDG $0 Register: IWDG:KR 
-              IWDG $4 Register: IWDG:PR 
-              IWDG $8 Register: IWDG:RLR 
-              IWDG $C Register: IWDG:SR 
-              IWDG $10 Register: IWDG:WINR 
+$40003000 device: IWDG  
+              IWDG $0 register: IWDG:KR 
+              IWDG $4 register: IWDG:PR 
+              IWDG $8 register: IWDG:RLR 
+              IWDG $C register: IWDG:SR 
+              IWDG $10 register: IWDG:WINR 
                 
             
-              $40002C00 Device: WWDG  
-              WWDG $0 Register: WWDG:CR 
-              WWDG $4 Register: WWDG:CFR 
-              WWDG $8 Register: WWDG:SR 
+              $40002C00 device: WWDG  
+              WWDG $0 register: WWDG:CR 
+              WWDG $4 register: WWDG:CFR 
+              WWDG $8 register: WWDG:SR 
                 
             
-              $40022000 Device: FLASH  
-              FLASH $0 Register: FLASH:ACR 
-              FLASH $8 Register: FLASH:KEYR 
-              FLASH $C Register: FLASH:OPTKEYR 
-              FLASH $10 Register: FLASH:SR 
-              FLASH $14 Register: FLASH:CR 
-              FLASH $18 Register: FLASH:ECCR 
-              FLASH $20 Register: FLASH:OPTR 
-              FLASH $24 Register: FLASH:PCROP1ASR 
-              FLASH $28 Register: FLASH:PCROP1AER 
-              FLASH $2C Register: FLASH:WRP1AR 
-              FLASH $30 Register: FLASH:WRP1BR 
-              FLASH $34 Register: FLASH:PCROP1BSR 
-              FLASH $38 Register: FLASH:PCROP1BER 
-              FLASH $80 Register: FLASH:SECR 
+              $40022000 device: FLASH  
+              FLASH $0 register: FLASH:ACR 
+              FLASH $8 register: FLASH:KEYR 
+              FLASH $C register: FLASH:OPTKEYR 
+              FLASH $10 register: FLASH:SR 
+              FLASH $14 register: FLASH:CR 
+              FLASH $18 register: FLASH:ECCR 
+              FLASH $20 register: FLASH:OPTR 
+              FLASH $24 register: FLASH:PCROP1ASR 
+              FLASH $28 register: FLASH:PCROP1AER 
+              FLASH $2C register: FLASH:WRP1AR 
+              FLASH $30 register: FLASH:WRP1BR 
+              FLASH $34 register: FLASH:PCROP1BSR 
+              FLASH $38 register: FLASH:PCROP1BER 
+              FLASH $80 register: FLASH:SECR 
                 
             
-              $40021000 Device: RCC  
-              RCC $0 Register: RCC:CR 
-              RCC $4 Register: RCC:ICSCR 
-              RCC $8 Register: RCC:CFGR 
-              RCC $C Register: RCC:PLLSYSCFGR 
-              RCC $18 Register: RCC:CIER 
-              RCC $1C Register: RCC:CIFR 
-              RCC $20 Register: RCC:CICR 
-              RCC $28 Register: RCC:AHBRSTR 
-              RCC $24 Register: RCC:IOPRSTR 
-              RCC $2C Register: RCC:APBRSTR1 
-              RCC $30 Register: RCC:APBRSTR2 
-              RCC $34 Register: RCC:IOPENR 
-              RCC $38 Register: RCC:AHBENR 
-              RCC $3C Register: RCC:APBENR1 
-              RCC $40 Register: RCC:APBENR2 
-              RCC $44 Register: RCC:IOPSMENR 
-              RCC $48 Register: RCC:AHBSMENR 
-              RCC $4C Register: RCC:APBSMENR1 
-              RCC $50 Register: RCC:APBSMENR2 
-              RCC $54 Register: RCC:CCIPR 
-              RCC $5C Register: RCC:BDCR 
-              RCC $60 Register: RCC:CSR 
+              $40021000 device: RCC  
+              RCC $0 register: RCC:CR 
+              RCC $4 register: RCC:ICSCR 
+              RCC $8 register: RCC:CFGR 
+              RCC $C register: RCC:PLLSYSCFGR 
+              RCC $18 register: RCC:CIER 
+              RCC $1C register: RCC:CIFR 
+              RCC $20 register: RCC:CICR 
+              RCC $28 register: RCC:AHBRSTR 
+              RCC $24 register: RCC:IOPRSTR 
+              RCC $2C register: RCC:APBRSTR1 
+              RCC $30 register: RCC:APBRSTR2 
+              RCC $34 register: RCC:IOPENR 
+              RCC $38 register: RCC:AHBENR 
+              RCC $3C register: RCC:APBENR1 
+              RCC $40 register: RCC:APBENR2 
+              RCC $44 register: RCC:IOPSMENR 
+              RCC $48 register: RCC:AHBSMENR 
+              RCC $4C register: RCC:APBSMENR1 
+              RCC $50 register: RCC:APBSMENR2 
+              RCC $54 register: RCC:CCIPR 
+              RCC $5C register: RCC:BDCR 
+              RCC $60 register: RCC:CSR 
                 
             
-              $40007000 Device: PWR  
-              PWR $0 Register: PWR:CR1 
-              PWR $4 Register: PWR:CR2 
-              PWR $8 Register: PWR:CR3 
-              PWR $C Register: PWR:CR4 
-              PWR $10 Register: PWR:SR1 
-              PWR $14 Register: PWR:SR2 
-              PWR $18 Register: PWR:SCR 
-              PWR $20 Register: PWR:PUCRA 
-              PWR $24 Register: PWR:PDCRA 
-              PWR $28 Register: PWR:PUCRB 
-              PWR $2C Register: PWR:PDCRB 
-              PWR $30 Register: PWR:PUCRC 
-              PWR $34 Register: PWR:PDCRC 
-              PWR $38 Register: PWR:PUCRD 
-              PWR $3C Register: PWR:PDCRD 
-              PWR $48 Register: PWR:PUCRF 
-              PWR $4C Register: PWR:PDCRF 
+              $40007000 device: PWR  
+              PWR $0 register: PWR:CR1 
+              PWR $4 register: PWR:CR2 
+              PWR $8 register: PWR:CR3 
+              PWR $C register: PWR:CR4 
+              PWR $10 register: PWR:SR1 
+              PWR $14 register: PWR:SR2 
+              PWR $18 register: PWR:SCR 
+              PWR $20 register: PWR:PUCRA 
+              PWR $24 register: PWR:PDCRA 
+              PWR $28 register: PWR:PUCRB 
+              PWR $2C register: PWR:PDCRB 
+              PWR $30 register: PWR:PUCRC 
+              PWR $34 register: PWR:PDCRC 
+              PWR $38 register: PWR:PUCRD 
+              PWR $3C register: PWR:PDCRD 
+              PWR $48 register: PWR:PUCRF 
+              PWR $4C register: PWR:PDCRF 
                 
             
-              $40020000 Device: DMA  
-              DMA $0 Register: DMA:ISR 
-              DMA $4 Register: DMA:IFCR 
-              DMA $8 Register: DMA:CCR1 
-              DMA $1C Register: DMA:CCR2 
-              DMA $30 Register: DMA:CCR3 
-              DMA $44 Register: DMA:CCR4 
-              DMA $58 Register: DMA:CCR5 
-              DMA $C Register: DMA:CNDTR1 
-              DMA $20 Register: DMA:CNDTR2 
-              DMA $34 Register: DMA:CNDTR3 
-              DMA $48 Register: DMA:CNDTR4 
-              DMA $5C Register: DMA:CNDTR5 
-              DMA $10 Register: DMA:CPAR1 
-              DMA $24 Register: DMA:CPAR2 
-              DMA $38 Register: DMA:CPAR3 
-              DMA $4C Register: DMA:CPAR4 
-              DMA $60 Register: DMA:CPAR5 
-              DMA $14 Register: DMA:CMAR1 
-              DMA $28 Register: DMA:CMAR2 
-              DMA $3C Register: DMA:CMAR3 
-              DMA $50 Register: DMA:CMAR4 
-              DMA $64 Register: DMA:CMAR5 
+              $40020000 device: DMA  
+              DMA $0 register: DMA:ISR 
+              DMA $4 register: DMA:IFCR 
+              DMA $8 register: DMA:CCR1 
+              DMA $1C register: DMA:CCR2 
+              DMA $30 register: DMA:CCR3 
+              DMA $44 register: DMA:CCR4 
+              DMA $58 register: DMA:CCR5 
+              DMA $C register: DMA:CNDTR1 
+              DMA $20 register: DMA:CNDTR2 
+              DMA $34 register: DMA:CNDTR3 
+              DMA $48 register: DMA:CNDTR4 
+              DMA $5C register: DMA:CNDTR5 
+              DMA $10 register: DMA:CPAR1 
+              DMA $24 register: DMA:CPAR2 
+              DMA $38 register: DMA:CPAR3 
+              DMA $4C register: DMA:CPAR4 
+              DMA $60 register: DMA:CPAR5 
+              DMA $14 register: DMA:CMAR1 
+              DMA $28 register: DMA:CMAR2 
+              DMA $3C register: DMA:CMAR3 
+              DMA $50 register: DMA:CMAR4 
+              DMA $64 register: DMA:CMAR5 
                 
             
-              $40020800 Device: DMAMUX  
-              DMAMUX $0 Register: DMAMUX:C0CR 
-              DMAMUX $4 Register: DMAMUX:C1CR 
-              DMAMUX $8 Register: DMAMUX:C2CR 
-              DMAMUX $C Register: DMAMUX:C3CR 
-              DMAMUX $10 Register: DMAMUX:C4CR 
-              DMAMUX $14 Register: DMAMUX:C5CR 
-              DMAMUX $18 Register: DMAMUX:C6CR 
-              DMAMUX $100 Register: DMAMUX:RG0CR 
-              DMAMUX $104 Register: DMAMUX:RG1CR 
-              DMAMUX $108 Register: DMAMUX:RG2CR 
-              DMAMUX $10C Register: DMAMUX:RG3CR 
-              DMAMUX $140 Register: DMAMUX:RGSR 
-              DMAMUX $144 Register: DMAMUX:RGCFR 
+              $40020800 device: DMAMUX  
+              DMAMUX $0 register: DMAMUX:C0CR 
+              DMAMUX $4 register: DMAMUX:C1CR 
+              DMAMUX $8 register: DMAMUX:C2CR 
+              DMAMUX $C register: DMAMUX:C3CR 
+              DMAMUX $10 register: DMAMUX:C4CR 
+              DMAMUX $14 register: DMAMUX:C5CR 
+              DMAMUX $18 register: DMAMUX:C6CR 
+              DMAMUX $100 register: DMAMUX:RG0CR 
+              DMAMUX $104 register: DMAMUX:RG1CR 
+              DMAMUX $108 register: DMAMUX:RG2CR 
+              DMAMUX $10C register: DMAMUX:RG3CR 
+              DMAMUX $140 register: DMAMUX:RGSR 
+              DMAMUX $144 register: DMAMUX:RGCFR 
                 
             
-              $50000000 Device: GPIOA  
-              GPIOA $0 Register: GPIOA:MODER 
-              GPIOA $4 Register: GPIOA:OTYPER 
-              GPIOA $8 Register: GPIOA:OSPEEDR 
-              GPIOA $C Register: GPIOA:PUPDR 
-              GPIOA $10 Register: GPIOA:IDR 
-              GPIOA $14 Register: GPIOA:ODR 
-              GPIOA $18 Register: GPIOA:BSRR 
-              GPIOA $1C Register: GPIOA:LCKR 
-              GPIOA $20 Register: GPIOA:AFRL 
-              GPIOA $24 Register: GPIOA:AFRH 
-              GPIOA $28 Register: GPIOA:BRR 
+              $50000000 device: GPIOA  
+              GPIOA $0 register: GPIOA:MODER 
+              GPIOA $4 register: GPIOA:OTYPER 
+              GPIOA $8 register: GPIOA:OSPEEDR 
+              GPIOA $C register: GPIOA:PUPDR 
+              GPIOA $10 register: GPIOA:IDR 
+              GPIOA $14 register: GPIOA:ODR 
+              GPIOA $18 register: GPIOA:BSRR 
+              GPIOA $1C register: GPIOA:LCKR 
+              GPIOA $20 register: GPIOA:AFRL 
+              GPIOA $24 register: GPIOA:AFRH 
+              GPIOA $28 register: GPIOA:BRR 
                 
             
-              $50000400 Device: GPIOB  
-              GPIOB $0 Register: GPIOB:MODER 
-              GPIOB $4 Register: GPIOB:OTYPER 
-              GPIOB $8 Register: GPIOB:OSPEEDR 
-              GPIOB $C Register: GPIOB:PUPDR 
-              GPIOB $10 Register: GPIOB:IDR 
-              GPIOB $14 Register: GPIOB:ODR 
-              GPIOB $18 Register: GPIOB:BSRR 
-              GPIOB $1C Register: GPIOB:LCKR 
-              GPIOB $20 Register: GPIOB:AFRL 
-              GPIOB $24 Register: GPIOB:AFRH 
-              GPIOB $28 Register: GPIOB:BRR 
+              $50000400 device: GPIOB  
+              GPIOB $0 register: GPIOB:MODER 
+              GPIOB $4 register: GPIOB:OTYPER 
+              GPIOB $8 register: GPIOB:OSPEEDR 
+              GPIOB $C register: GPIOB:PUPDR 
+              GPIOB $10 register: GPIOB:IDR 
+              GPIOB $14 register: GPIOB:ODR 
+              GPIOB $18 register: GPIOB:BSRR 
+              GPIOB $1C register: GPIOB:LCKR 
+              GPIOB $20 register: GPIOB:AFRL 
+              GPIOB $24 register: GPIOB:AFRH 
+              GPIOB $28 register: GPIOB:BRR 
                 
             
-              $50000800 Device: GPIOC  
-              GPIOC $0 Register: GPIOC:MODER 
-              GPIOC $4 Register: GPIOC:OTYPER 
-              GPIOC $8 Register: GPIOC:OSPEEDR 
-              GPIOC $C Register: GPIOC:PUPDR 
-              GPIOC $10 Register: GPIOC:IDR 
-              GPIOC $14 Register: GPIOC:ODR 
-              GPIOC $18 Register: GPIOC:BSRR 
-              GPIOC $1C Register: GPIOC:LCKR 
-              GPIOC $20 Register: GPIOC:AFRL 
-              GPIOC $24 Register: GPIOC:AFRH 
-              GPIOC $28 Register: GPIOC:BRR 
+              $50000800 device: GPIOC  
+              GPIOC $0 register: GPIOC:MODER 
+              GPIOC $4 register: GPIOC:OTYPER 
+              GPIOC $8 register: GPIOC:OSPEEDR 
+              GPIOC $C register: GPIOC:PUPDR 
+              GPIOC $10 register: GPIOC:IDR 
+              GPIOC $14 register: GPIOC:ODR 
+              GPIOC $18 register: GPIOC:BSRR 
+              GPIOC $1C register: GPIOC:LCKR 
+              GPIOC $20 register: GPIOC:AFRL 
+              GPIOC $24 register: GPIOC:AFRH 
+              GPIOC $28 register: GPIOC:BRR 
                 
             
-              $50000C00 Device: GPIOD  
-              GPIOD $0 Register: GPIOD:MODER 
-              GPIOD $4 Register: GPIOD:OTYPER 
-              GPIOD $8 Register: GPIOD:OSPEEDR 
-              GPIOD $C Register: GPIOD:PUPDR 
-              GPIOD $10 Register: GPIOD:IDR 
-              GPIOD $14 Register: GPIOD:ODR 
-              GPIOD $18 Register: GPIOD:BSRR 
-              GPIOD $1C Register: GPIOD:LCKR 
-              GPIOD $20 Register: GPIOD:AFRL 
-              GPIOD $24 Register: GPIOD:AFRH 
-              GPIOD $28 Register: GPIOD:BRR 
+              $50000C00 device: GPIOD  
+              GPIOD $0 register: GPIOD:MODER 
+              GPIOD $4 register: GPIOD:OTYPER 
+              GPIOD $8 register: GPIOD:OSPEEDR 
+              GPIOD $C register: GPIOD:PUPDR 
+              GPIOD $10 register: GPIOD:IDR 
+              GPIOD $14 register: GPIOD:ODR 
+              GPIOD $18 register: GPIOD:BSRR 
+              GPIOD $1C register: GPIOD:LCKR 
+              GPIOD $20 register: GPIOD:AFRL 
+              GPIOD $24 register: GPIOD:AFRH 
+              GPIOD $28 register: GPIOD:BRR 
                 
             
-              $50001400 Device: GPIOF  
-              GPIOF $0 Register: GPIOF:MODER 
-              GPIOF $4 Register: GPIOF:OTYPER 
-              GPIOF $8 Register: GPIOF:OSPEEDR 
-              GPIOF $C Register: GPIOF:PUPDR 
-              GPIOF $10 Register: GPIOF:IDR 
-              GPIOF $14 Register: GPIOF:ODR 
-              GPIOF $18 Register: GPIOF:BSRR 
-              GPIOF $1C Register: GPIOF:LCKR 
-              GPIOF $20 Register: GPIOF:AFRL 
-              GPIOF $24 Register: GPIOF:AFRH 
-              GPIOF $28 Register: GPIOF:BRR 
+              $50001400 device: GPIOF  
+              GPIOF $0 register: GPIOF:MODER 
+              GPIOF $4 register: GPIOF:OTYPER 
+              GPIOF $8 register: GPIOF:OSPEEDR 
+              GPIOF $C register: GPIOF:PUPDR 
+              GPIOF $10 register: GPIOF:IDR 
+              GPIOF $14 register: GPIOF:ODR 
+              GPIOF $18 register: GPIOF:BSRR 
+              GPIOF $1C register: GPIOF:LCKR 
+              GPIOF $20 register: GPIOF:AFRL 
+              GPIOF $24 register: GPIOF:AFRH 
+              GPIOF $28 register: GPIOF:BRR 
                 
             
-              $40023000 Device: CRC  
-              CRC $0 Register: CRC:DR 
-              CRC $4 Register: CRC:IDR 
-              CRC $8 Register: CRC:CR 
-              CRC $10 Register: CRC:INIT 
-              CRC $14 Register: CRC:POL 
+              $40023000 device: CRC  
+              CRC $0 register: CRC:DR 
+              CRC $4 register: CRC:IDR 
+              CRC $8 register: CRC:CR 
+              CRC $10 register: CRC:INIT 
+              CRC $14 register: CRC:POL 
                 
             
-              $40021800 Device: EXTI  
-              EXTI $0 Register: EXTI:RTSR1 
-              EXTI $4 Register: EXTI:FTSR1 
-              EXTI $8 Register: EXTI:SWIER1 
-              EXTI $C Register: EXTI:RPR1 
-              EXTI $10 Register: EXTI:FPR1 
-              EXTI $60 Register: EXTI:EXTICR1 
-              EXTI $64 Register: EXTI:EXTICR2 
-              EXTI $68 Register: EXTI:EXTICR3 
-              EXTI $6C Register: EXTI:EXTICR4 
-              EXTI $80 Register: EXTI:IMR1 
-              EXTI $84 Register: EXTI:EMR1 
+              $40021800 device: EXTI  
+              EXTI $0 register: EXTI:RTSR1 
+              EXTI $4 register: EXTI:FTSR1 
+              EXTI $8 register: EXTI:SWIER1 
+              EXTI $C register: EXTI:RPR1 
+              EXTI $10 register: EXTI:FPR1 
+              EXTI $60 register: EXTI:EXTICR1 
+              EXTI $64 register: EXTI:EXTICR2 
+              EXTI $68 register: EXTI:EXTICR3 
+              EXTI $6C register: EXTI:EXTICR4 
+              EXTI $80 register: EXTI:IMR1 
+              EXTI $84 register: EXTI:EMR1 
                 
             
-              $40014400 Device: TIM16  
-              TIM16 $0 Register: TIM16:CR1 
-              TIM16 $4 Register: TIM16:CR2 
-              TIM16 $C Register: TIM16:DIER 
-              TIM16 $10 Register: TIM16:SR 
-              TIM16 $14 Register: TIM16:EGR 
-              TIM16 $18 Register: TIM16:CCMR1_Output 
-              TIM16 $18 Register: TIM16:CCMR1_Input 
-              TIM16 $20 Register: TIM16:CCER 
-              TIM16 $24 Register: TIM16:CNT 
-              TIM16 $28 Register: TIM16:PSC 
-              TIM16 $2C Register: TIM16:ARR 
-              TIM16 $30 Register: TIM16:RCR 
-              TIM16 $34 Register: TIM16:CCR1 
-              TIM16 $44 Register: TIM16:BDTR 
-              TIM16 $48 Register: TIM16:DCR 
-              TIM16 $4C Register: TIM16:DMAR 
-              TIM16 $60 Register: TIM16:AF1 
-              TIM16 $68 Register: TIM16:TISEL 
+              $40014400 device: TIM16  
+              TIM16 $0 register: TIM16:CR1 
+              TIM16 $4 register: TIM16:CR2 
+              TIM16 $C register: TIM16:DIER 
+              TIM16 $10 register: TIM16:SR 
+              TIM16 $14 register: TIM16:EGR 
+              TIM16 $18 register: TIM16:CCMR1_Output 
+              TIM16 $18 register: TIM16:CCMR1_Input 
+              TIM16 $20 register: TIM16:CCER 
+              TIM16 $24 register: TIM16:CNT 
+              TIM16 $28 register: TIM16:PSC 
+              TIM16 $2C register: TIM16:ARR 
+              TIM16 $30 register: TIM16:RCR 
+              TIM16 $34 register: TIM16:CCR1 
+              TIM16 $44 register: TIM16:BDTR 
+              TIM16 $48 register: TIM16:DCR 
+              TIM16 $4C register: TIM16:DMAR 
+              TIM16 $60 register: TIM16:AF1 
+              TIM16 $68 register: TIM16:TISEL 
                 
             
-              $40014800 Device: TIM17  
-              TIM17 $0 Register: TIM17:CR1 
-              TIM17 $4 Register: TIM17:CR2 
-              TIM17 $C Register: TIM17:DIER 
-              TIM17 $10 Register: TIM17:SR 
-              TIM17 $14 Register: TIM17:EGR 
-              TIM17 $18 Register: TIM17:CCMR1_Output 
-              TIM17 $18 Register: TIM17:CCMR1_Input 
-              TIM17 $20 Register: TIM17:CCER 
-              TIM17 $24 Register: TIM17:CNT 
-              TIM17 $28 Register: TIM17:PSC 
-              TIM17 $2C Register: TIM17:ARR 
-              TIM17 $30 Register: TIM17:RCR 
-              TIM17 $34 Register: TIM17:CCR1 
-              TIM17 $44 Register: TIM17:BDTR 
-              TIM17 $48 Register: TIM17:DCR 
-              TIM17 $4C Register: TIM17:DMAR 
-              TIM17 $60 Register: TIM17:AF1 
-              TIM17 $68 Register: TIM17:TISEL 
+              $40014800 device: TIM17  
+              TIM17 $0 register: TIM17:CR1 
+              TIM17 $4 register: TIM17:CR2 
+              TIM17 $C register: TIM17:DIER 
+              TIM17 $10 register: TIM17:SR 
+              TIM17 $14 register: TIM17:EGR 
+              TIM17 $18 register: TIM17:CCMR1_Output 
+              TIM17 $18 register: TIM17:CCMR1_Input 
+              TIM17 $20 register: TIM17:CCER 
+              TIM17 $24 register: TIM17:CNT 
+              TIM17 $28 register: TIM17:PSC 
+              TIM17 $2C register: TIM17:ARR 
+              TIM17 $30 register: TIM17:RCR 
+              TIM17 $34 register: TIM17:CCR1 
+              TIM17 $44 register: TIM17:BDTR 
+              TIM17 $48 register: TIM17:DCR 
+              TIM17 $4C register: TIM17:DMAR 
+              TIM17 $60 register: TIM17:AF1 
+              TIM17 $68 register: TIM17:TISEL 
                 
             
-              $40013800 Device: USART1  
-              USART1 $0 Register: USART1:CR1 
-              USART1 $4 Register: USART1:CR2 
-              USART1 $8 Register: USART1:CR3 
-              USART1 $C Register: USART1:BRR 
-              USART1 $10 Register: USART1:GTPR 
-              USART1 $14 Register: USART1:RTOR 
-              USART1 $18 Register: USART1:RQR 
-              USART1 $1C Register: USART1:ISR 
-              USART1 $20 Register: USART1:ICR 
-              USART1 $24 Register: USART1:RDR 
-              USART1 $28 Register: USART1:TDR 
-              USART1 $2C Register: USART1:PRESC 
+              $40013800 device: USART1  
+              USART1 $0 register: USART1:CR1 
+              USART1 $4 register: USART1:CR2 
+              USART1 $8 register: USART1:CR3 
+              USART1 $C register: USART1:BRR 
+              USART1 $10 register: USART1:GTPR 
+              USART1 $14 register: USART1:RTOR 
+              USART1 $18 register: USART1:RQR 
+              USART1 $1C register: USART1:ISR 
+              USART1 $20 register: USART1:ICR 
+              USART1 $24 register: USART1:RDR 
+              USART1 $28 register: USART1:TDR 
+              USART1 $2C register: USART1:PRESC 
                 
             
-              $40004400 Device: USART2  
-              USART2 $0 Register: USART2:CR1 
-              USART2 $4 Register: USART2:CR2 
-              USART2 $8 Register: USART2:CR3 
-              USART2 $C Register: USART2:BRR 
-              USART2 $10 Register: USART2:GTPR 
-              USART2 $14 Register: USART2:RTOR 
-              USART2 $18 Register: USART2:RQR 
-              USART2 $1C Register: USART2:ISR 
-              USART2 $20 Register: USART2:ICR 
-              USART2 $24 Register: USART2:RDR 
-              USART2 $28 Register: USART2:TDR 
-              USART2 $2C Register: USART2:PRESC 
+              $40004400 device: USART2  
+              USART2 $0 register: USART2:CR1 
+              USART2 $4 register: USART2:CR2 
+              USART2 $8 register: USART2:CR3 
+              USART2 $C register: USART2:BRR 
+              USART2 $10 register: USART2:GTPR 
+              USART2 $14 register: USART2:RTOR 
+              USART2 $18 register: USART2:RQR 
+              USART2 $1C register: USART2:ISR 
+              USART2 $20 register: USART2:ICR 
+              USART2 $24 register: USART2:RDR 
+              USART2 $28 register: USART2:TDR 
+              USART2 $2C register: USART2:PRESC 
                 
             
-              $40013000 Device: SPI1  
-              SPI1 $0 Register: SPI1:CR1 
-              SPI1 $4 Register: SPI1:CR2 
-              SPI1 $8 Register: SPI1:SR 
-              SPI1 $C Register: SPI1:DR 
-              SPI1 $10 Register: SPI1:CRCPR 
-              SPI1 $14 Register: SPI1:RXCRCR 
-              SPI1 $18 Register: SPI1:TXCRCR 
-              SPI1 $1C Register: SPI1:I2SCFGR 
-              SPI1 $20 Register: SPI1:I2SPR 
+              $40013000 device: SPI1  
+              SPI1 $0 register: SPI1:CR1 
+              SPI1 $4 register: SPI1:CR2 
+              SPI1 $8 register: SPI1:SR 
+              SPI1 $C register: SPI1:DR 
+              SPI1 $10 register: SPI1:CRCPR 
+              SPI1 $14 register: SPI1:RXCRCR 
+              SPI1 $18 register: SPI1:TXCRCR 
+              SPI1 $1C register: SPI1:I2SCFGR 
+              SPI1 $20 register: SPI1:I2SPR 
                 
             
-              $40003800 Device: SPI2  
-              SPI2 $0 Register: SPI2:CR1 
-              SPI2 $4 Register: SPI2:CR2 
-              SPI2 $8 Register: SPI2:SR 
-              SPI2 $C Register: SPI2:DR 
-              SPI2 $10 Register: SPI2:CRCPR 
-              SPI2 $14 Register: SPI2:RXCRCR 
-              SPI2 $18 Register: SPI2:TXCRCR 
-              SPI2 $1C Register: SPI2:I2SCFGR 
-              SPI2 $20 Register: SPI2:I2SPR 
+              $40003800 device: SPI2  
+              SPI2 $0 register: SPI2:CR1 
+              SPI2 $4 register: SPI2:CR2 
+              SPI2 $8 register: SPI2:SR 
+              SPI2 $C register: SPI2:DR 
+              SPI2 $10 register: SPI2:CRCPR 
+              SPI2 $14 register: SPI2:RXCRCR 
+              SPI2 $18 register: SPI2:TXCRCR 
+              SPI2 $1C register: SPI2:I2SCFGR 
+              SPI2 $20 register: SPI2:I2SPR 
                 
             
-              $40012C00 Device: TIM1  
-              TIM1 $0 Register: TIM1:CR1 
-              TIM1 $4 Register: TIM1:CR2 
-              TIM1 $8 Register: TIM1:SMCR 
-              TIM1 $C Register: TIM1:DIER 
-              TIM1 $10 Register: TIM1:SR 
-              TIM1 $14 Register: TIM1:EGR 
-              TIM1 $18 Register: TIM1:CCMR1_Output 
-              TIM1 $18 Register: TIM1:CCMR1_Input 
-              TIM1 $1C Register: TIM1:CCMR2_Output 
-              TIM1 $1C Register: TIM1:CCMR2_Input 
-              TIM1 $20 Register: TIM1:CCER 
-              TIM1 $24 Register: TIM1:CNT 
-              TIM1 $28 Register: TIM1:PSC 
-              TIM1 $2C Register: TIM1:ARR 
-              TIM1 $30 Register: TIM1:RCR 
-              TIM1 $34 Register: TIM1:CCR1 
-              TIM1 $38 Register: TIM1:CCR2 
-              TIM1 $3C Register: TIM1:CCR3 
-              TIM1 $40 Register: TIM1:CCR4 
-              TIM1 $44 Register: TIM1:BDTR 
-              TIM1 $48 Register: TIM1:DCR 
-              TIM1 $4C Register: TIM1:DMAR 
-              TIM1 $50 Register: TIM1:OR1 
-              TIM1 $54 Register: TIM1:CCMR3_Output 
-              TIM1 $58 Register: TIM1:CCR5 
-              TIM1 $5C Register: TIM1:CCR6 
-              TIM1 $60 Register: TIM1:AF1 
-              TIM1 $64 Register: TIM1:AF2 
-              TIM1 $68 Register: TIM1:TISEL 
+              $40012C00 device: TIM1  
+              TIM1 $0 register: TIM1:CR1 
+              TIM1 $4 register: TIM1:CR2 
+              TIM1 $8 register: TIM1:SMCR 
+              TIM1 $C register: TIM1:DIER 
+              TIM1 $10 register: TIM1:SR 
+              TIM1 $14 register: TIM1:EGR 
+              TIM1 $18 register: TIM1:CCMR1_Output 
+              TIM1 $18 register: TIM1:CCMR1_Input 
+              TIM1 $1C register: TIM1:CCMR2_Output 
+              TIM1 $1C register: TIM1:CCMR2_Input 
+              TIM1 $20 register: TIM1:CCER 
+              TIM1 $24 register: TIM1:CNT 
+              TIM1 $28 register: TIM1:PSC 
+              TIM1 $2C register: TIM1:ARR 
+              TIM1 $30 register: TIM1:RCR 
+              TIM1 $34 register: TIM1:CCR1 
+              TIM1 $38 register: TIM1:CCR2 
+              TIM1 $3C register: TIM1:CCR3 
+              TIM1 $40 register: TIM1:CCR4 
+              TIM1 $44 register: TIM1:BDTR 
+              TIM1 $48 register: TIM1:DCR 
+              TIM1 $4C register: TIM1:DMAR 
+              TIM1 $50 register: TIM1:OR1 
+              TIM1 $54 register: TIM1:CCMR3_Output 
+              TIM1 $58 register: TIM1:CCR5 
+              TIM1 $5C register: TIM1:CCR6 
+              TIM1 $60 register: TIM1:AF1 
+              TIM1 $64 register: TIM1:AF2 
+              TIM1 $68 register: TIM1:TISEL 
                 
             
-              $40012400 Device: ADC  
-              ADC $0 Register: ADC:ISR 
-              ADC $4 Register: ADC:IER 
-              ADC $8 Register: ADC:CR 
-              ADC $C Register: ADC:CFGR1 
-              ADC $10 Register: ADC:CFGR2 
-              ADC $14 Register: ADC:SMPR 
-              ADC $20 Register: ADC:AWD1TR 
-              ADC $24 Register: ADC:AWD2TR 
-              ADC $28 Register: ADC:CHSELR 
-              ADC $28 Register: ADC:CHSELR_1 
-              ADC $2C Register: ADC:AWD3TR 
-              ADC $40 Register: ADC:DR 
-              ADC $A0 Register: ADC:AWD2CR 
-              ADC $A4 Register: ADC:AWD3CR 
-              ADC $B4 Register: ADC:CALFACT 
-              ADC $308 Register: ADC:CCR 
+              $40012400 device: ADC  
+              ADC $0 register: ADC:ISR 
+              ADC $4 register: ADC:IER 
+              ADC $8 register: ADC:CR 
+              ADC $C register: ADC:CFGR1 
+              ADC $10 register: ADC:CFGR2 
+              ADC $14 register: ADC:SMPR 
+              ADC $20 register: ADC:AWD1TR 
+              ADC $24 register: ADC:AWD2TR 
+              ADC $28 register: ADC:CHSELR 
+              ADC $28 register: ADC:CHSELR_1 
+              ADC $2C register: ADC:AWD3TR 
+              ADC $40 register: ADC:DR 
+              ADC $A0 register: ADC:AWD2CR 
+              ADC $A4 register: ADC:AWD3CR 
+              ADC $B4 register: ADC:CALFACT 
+              ADC $308 register: ADC:CCR 
                 
             
-              $40010000 Device: SYSCFG  
-              SYSCFG $0 Register: SYSCFG:CFGR1 
-              SYSCFG $18 Register: SYSCFG:CFGR2 
+              $40010000 device: SYSCFG  
+              SYSCFG $0 register: SYSCFG:CFGR1 
+              SYSCFG $18 register: SYSCFG:CFGR2 
                 
             
-              $4000B000 Device: TAMP  
-              TAMP $0 Register: TAMP:CR1 
-              TAMP $4 Register: TAMP:CR2 
-              TAMP $C Register: TAMP:FLTCR 
-              TAMP $2C Register: TAMP:IER 
-              TAMP $30 Register: TAMP:SR 
-              TAMP $34 Register: TAMP:MISR 
-              TAMP $3C Register: TAMP:SCR 
-              TAMP $100 Register: TAMP:BKP0R 
-              TAMP $104 Register: TAMP:BKP1R 
-              TAMP $108 Register: TAMP:BKP2R 
-              TAMP $10C Register: TAMP:BKP3R 
-              TAMP $110 Register: TAMP:BKP4R 
+              $4000B000 device: TAMP  
+              TAMP $0 register: TAMP:CR1 
+              TAMP $4 register: TAMP:CR2 
+              TAMP $C register: TAMP:FLTCR 
+              TAMP $2C register: TAMP:IER 
+              TAMP $30 register: TAMP:SR 
+              TAMP $34 register: TAMP:MISR 
+              TAMP $3C register: TAMP:SCR 
+              TAMP $100 register: TAMP:BKP0R 
+              TAMP $104 register: TAMP:BKP1R 
+              TAMP $108 register: TAMP:BKP2R 
+              TAMP $10C register: TAMP:BKP3R 
+              TAMP $110 register: TAMP:BKP4R 
                 
             
-              $40005400 Device: I2C1  
-              I2C1 $0 Register: I2C1:CR1 
-              I2C1 $4 Register: I2C1:CR2 
-              I2C1 $8 Register: I2C1:OAR1 
-              I2C1 $C Register: I2C1:OAR2 
-              I2C1 $10 Register: I2C1:TIMINGR 
-              I2C1 $14 Register: I2C1:TIMEOUTR 
-              I2C1 $18 Register: I2C1:ISR 
-              I2C1 $1C Register: I2C1:ICR 
-              I2C1 $20 Register: I2C1:PECR 
-              I2C1 $24 Register: I2C1:RXDR 
-              I2C1 $28 Register: I2C1:TXDR 
+              $40005400 device: I2C1  
+              I2C1 $0 register: I2C1:CR1 
+              I2C1 $4 register: I2C1:CR2 
+              I2C1 $8 register: I2C1:OAR1 
+              I2C1 $C register: I2C1:OAR2 
+              I2C1 $10 register: I2C1:TIMINGR 
+              I2C1 $14 register: I2C1:TIMEOUTR 
+              I2C1 $18 register: I2C1:ISR 
+              I2C1 $1C register: I2C1:ICR 
+              I2C1 $20 register: I2C1:PECR 
+              I2C1 $24 register: I2C1:RXDR 
+              I2C1 $28 register: I2C1:TXDR 
                 
             
-              $40005800 Device: I2C2  
-              I2C2 $0 Register: I2C2:CR1 
-              I2C2 $4 Register: I2C2:CR2 
-              I2C2 $8 Register: I2C2:OAR1 
-              I2C2 $C Register: I2C2:OAR2 
-              I2C2 $10 Register: I2C2:TIMINGR 
-              I2C2 $14 Register: I2C2:TIMEOUTR 
-              I2C2 $18 Register: I2C2:ISR 
-              I2C2 $1C Register: I2C2:ICR 
-              I2C2 $20 Register: I2C2:PECR 
-              I2C2 $24 Register: I2C2:RXDR 
-              I2C2 $28 Register: I2C2:TXDR 
+              $40005800 device: I2C2  
+              I2C2 $0 register: I2C2:CR1 
+              I2C2 $4 register: I2C2:CR2 
+              I2C2 $8 register: I2C2:OAR1 
+              I2C2 $C register: I2C2:OAR2 
+              I2C2 $10 register: I2C2:TIMINGR 
+              I2C2 $14 register: I2C2:TIMEOUTR 
+              I2C2 $18 register: I2C2:ISR 
+              I2C2 $1C register: I2C2:ICR 
+              I2C2 $20 register: I2C2:PECR 
+              I2C2 $24 register: I2C2:RXDR 
+              I2C2 $28 register: I2C2:TXDR 
                 
             
-              $40002800 Device: RTC  
-              RTC $0 Register: RTC:TR 
-              RTC $4 Register: RTC:DR 
-              RTC $8 Register: RTC:SSR 
-              RTC $C Register: RTC:ICSR 
-              RTC $10 Register: RTC:PRER 
-              RTC $14 Register: RTC:WUTR 
-              RTC $18 Register: RTC:CR 
-              RTC $24 Register: RTC:WPR 
-              RTC $28 Register: RTC:CALR 
-              RTC $2C Register: RTC:SHIFTR 
-              RTC $30 Register: RTC:TSTR 
-              RTC $34 Register: RTC:TSDR 
-              RTC $38 Register: RTC:TSSSR 
-              RTC $40 Register: RTC:ALRMAR 
-              RTC $44 Register: RTC:ALRMASSR 
-              RTC $48 Register: RTC:ALRMBR 
-              RTC $4C Register: RTC:ALRMBSSR 
-              RTC $50 Register: RTC:SR 
-              RTC $54 Register: RTC:MISR 
-              RTC $5C Register: RTC:SCR 
+              $40002800 device: RTC  
+              RTC $0 register: RTC:TR 
+              RTC $4 register: RTC:DR 
+              RTC $8 register: RTC:SSR 
+              RTC $C register: RTC:ICSR 
+              RTC $10 register: RTC:PRER 
+              RTC $14 register: RTC:WUTR 
+              RTC $18 register: RTC:CR 
+              RTC $24 register: RTC:WPR 
+              RTC $28 register: RTC:CALR 
+              RTC $2C register: RTC:SHIFTR 
+              RTC $30 register: RTC:TSTR 
+              RTC $34 register: RTC:TSDR 
+              RTC $38 register: RTC:TSSSR 
+              RTC $40 register: RTC:ALRMAR 
+              RTC $44 register: RTC:ALRMASSR 
+              RTC $48 register: RTC:ALRMBR 
+              RTC $4C register: RTC:ALRMBSSR 
+              RTC $50 register: RTC:SR 
+              RTC $54 register: RTC:MISR 
+              RTC $5C register: RTC:SCR 
                 
             
-              $40002000 Device: TIM14  
-              TIM14 $0 Register: TIM14:CR1 
-              TIM14 $C Register: TIM14:DIER 
-              TIM14 $10 Register: TIM14:SR 
-              TIM14 $14 Register: TIM14:EGR 
-              TIM14 $18 Register: TIM14:CCMR1_Output 
-              TIM14 $18 Register: TIM14:CCMR1_Input 
-              TIM14 $20 Register: TIM14:CCER 
-              TIM14 $24 Register: TIM14:CNT 
-              TIM14 $28 Register: TIM14:PSC 
-              TIM14 $2C Register: TIM14:ARR 
-              TIM14 $34 Register: TIM14:CCR1 
-              TIM14 $68 Register: TIM14:TISEL 
+              $40002000 device: TIM14  
+              TIM14 $0 register: TIM14:CR1 
+              TIM14 $C register: TIM14:DIER 
+              TIM14 $10 register: TIM14:SR 
+              TIM14 $14 register: TIM14:EGR 
+              TIM14 $18 register: TIM14:CCMR1_Output 
+              TIM14 $18 register: TIM14:CCMR1_Input 
+              TIM14 $20 register: TIM14:CCER 
+              TIM14 $24 register: TIM14:CNT 
+              TIM14 $28 register: TIM14:PSC 
+              TIM14 $2C register: TIM14:ARR 
+              TIM14 $34 register: TIM14:CCR1 
+              TIM14 $68 register: TIM14:TISEL 
                 
             
-              $40000000 Device: TIM2  
-              TIM2 $0 Register: TIM2:CR1 
-              TIM2 $4 Register: TIM2:CR2 
-              TIM2 $8 Register: TIM2:SMCR 
-              TIM2 $C Register: TIM2:DIER 
-              TIM2 $10 Register: TIM2:SR 
-              TIM2 $14 Register: TIM2:EGR 
-              TIM2 $18 Register: TIM2:CCMR1_Output 
-              TIM2 $18 Register: TIM2:CCMR1_Input 
-              TIM2 $1C Register: TIM2:CCMR2_Output 
-              TIM2 $1C Register: TIM2:CCMR2_Input 
-              TIM2 $20 Register: TIM2:CCER 
-              TIM2 $24 Register: TIM2:CNT 
-              TIM2 $28 Register: TIM2:PSC 
-              TIM2 $2C Register: TIM2:ARR 
-              TIM2 $34 Register: TIM2:CCR1 
-              TIM2 $38 Register: TIM2:CCR2 
-              TIM2 $3C Register: TIM2:CCR3 
-              TIM2 $40 Register: TIM2:CCR4 
-              TIM2 $48 Register: TIM2:DCR 
-              TIM2 $4C Register: TIM2:DMAR 
-              TIM2 $50 Register: TIM2:OR1 
-              TIM2 $60 Register: TIM2:AF1 
-              TIM2 $68 Register: TIM2:TISEL 
+              $40000000 device: TIM2  
+              TIM2 $0 register: TIM2:CR1 
+              TIM2 $4 register: TIM2:CR2 
+              TIM2 $8 register: TIM2:SMCR 
+              TIM2 $C register: TIM2:DIER 
+              TIM2 $10 register: TIM2:SR 
+              TIM2 $14 register: TIM2:EGR 
+              TIM2 $18 register: TIM2:CCMR1_Output 
+              TIM2 $18 register: TIM2:CCMR1_Input 
+              TIM2 $1C register: TIM2:CCMR2_Output 
+              TIM2 $1C register: TIM2:CCMR2_Input 
+              TIM2 $20 register: TIM2:CCER 
+              TIM2 $24 register: TIM2:CNT 
+              TIM2 $28 register: TIM2:PSC 
+              TIM2 $2C register: TIM2:ARR 
+              TIM2 $34 register: TIM2:CCR1 
+              TIM2 $38 register: TIM2:CCR2 
+              TIM2 $3C register: TIM2:CCR3 
+              TIM2 $40 register: TIM2:CCR4 
+              TIM2 $48 register: TIM2:DCR 
+              TIM2 $4C register: TIM2:DMAR 
+              TIM2 $50 register: TIM2:OR1 
+              TIM2 $60 register: TIM2:AF1 
+              TIM2 $68 register: TIM2:TISEL 
                 
             
-              $40000400 Device: TIM3  
-              TIM3 $0 Register: TIM3:CR1 
-              TIM3 $4 Register: TIM3:CR2 
-              TIM3 $8 Register: TIM3:SMCR 
-              TIM3 $C Register: TIM3:DIER 
-              TIM3 $10 Register: TIM3:SR 
-              TIM3 $14 Register: TIM3:EGR 
-              TIM3 $18 Register: TIM3:CCMR1_Output 
-              TIM3 $18 Register: TIM3:CCMR1_Input 
-              TIM3 $1C Register: TIM3:CCMR2_Output 
-              TIM3 $1C Register: TIM3:CCMR2_Input 
-              TIM3 $20 Register: TIM3:CCER 
-              TIM3 $24 Register: TIM3:CNT 
-              TIM3 $28 Register: TIM3:PSC 
-              TIM3 $2C Register: TIM3:ARR 
-              TIM3 $34 Register: TIM3:CCR1 
-              TIM3 $38 Register: TIM3:CCR2 
-              TIM3 $3C Register: TIM3:CCR3 
-              TIM3 $40 Register: TIM3:CCR4 
-              TIM3 $48 Register: TIM3:DCR 
-              TIM3 $4C Register: TIM3:DMAR 
-              TIM3 $50 Register: TIM3:OR1 
-              TIM3 $60 Register: TIM3:AF1 
-              TIM3 $68 Register: TIM3:TISEL 
+              $40000400 device: TIM3  
+              TIM3 $0 register: TIM3:CR1 
+              TIM3 $4 register: TIM3:CR2 
+              TIM3 $8 register: TIM3:SMCR 
+              TIM3 $C register: TIM3:DIER 
+              TIM3 $10 register: TIM3:SR 
+              TIM3 $14 register: TIM3:EGR 
+              TIM3 $18 register: TIM3:CCMR1_Output 
+              TIM3 $18 register: TIM3:CCMR1_Input 
+              TIM3 $1C register: TIM3:CCMR2_Output 
+              TIM3 $1C register: TIM3:CCMR2_Input 
+              TIM3 $20 register: TIM3:CCER 
+              TIM3 $24 register: TIM3:CNT 
+              TIM3 $28 register: TIM3:PSC 
+              TIM3 $2C register: TIM3:ARR 
+              TIM3 $34 register: TIM3:CCR1 
+              TIM3 $38 register: TIM3:CCR2 
+              TIM3 $3C register: TIM3:CCR3 
+              TIM3 $40 register: TIM3:CCR4 
+              TIM3 $48 register: TIM3:DCR 
+              TIM3 $4C register: TIM3:DMAR 
+              TIM3 $50 register: TIM3:OR1 
+              TIM3 $60 register: TIM3:AF1 
+              TIM3 $68 register: TIM3:TISEL 
                 
             
-              $E000E100 Device: NVIC  
-              NVIC $0 Register: NVIC:ISER 
-              NVIC $80 Register: NVIC:ICER 
-              NVIC $100 Register: NVIC:ISPR 
-              NVIC $180 Register: NVIC:ICPR 
-              NVIC $300 Register: NVIC:IPR0 
-              NVIC $304 Register: NVIC:IPR1 
-              NVIC $308 Register: NVIC:IPR2 
-              NVIC $30C Register: NVIC:IPR3 
-              NVIC $310 Register: NVIC:IPR4 
-              NVIC $314 Register: NVIC:IPR5 
-              NVIC $318 Register: NVIC:IPR6 
-              NVIC $31C Register: NVIC:IPR7 
-              NVIC $320 Register: NVIC:IPR8 
+              $E000E100 device: NVIC  
+              NVIC $0 register: NVIC:ISER 
+              NVIC $80 register: NVIC:ICER 
+              NVIC $100 register: NVIC:ISPR 
+              NVIC $180 register: NVIC:ICPR 
+              NVIC $300 register: NVIC:IPR0 
+              NVIC $304 register: NVIC:IPR1 
+              NVIC $308 register: NVIC:IPR2 
+              NVIC $30C register: NVIC:IPR3 
+              NVIC $310 register: NVIC:IPR4 
+              NVIC $314 register: NVIC:IPR5 
+              NVIC $318 register: NVIC:IPR6 
+              NVIC $31C register: NVIC:IPR7 
+              NVIC $320 register: NVIC:IPR8 
                 
             
-              $E000ED90 Device: MPU  
-              MPU $0 Register: MPU:MPU_TYPER 
-              MPU $4 Register: MPU:MPU_CTRL 
-              MPU $8 Register: MPU:MPU_RNR 
-              MPU $C Register: MPU:MPU_RBAR 
-              MPU $10 Register: MPU:MPU_RASR 
+              $E000ED90 device: MPU  
+              MPU $0 register: MPU:MPU_TYPER 
+              MPU $4 register: MPU:MPU_CTRL 
+              MPU $8 register: MPU:MPU_RNR 
+              MPU $C register: MPU:MPU_RBAR 
+              MPU $10 register: MPU:MPU_RASR 
                 
             
-              $E000E010 Device: STK  
-              STK $0 Register: STK:CSR 
-              STK $4 Register: STK:RVR 
-              STK $8 Register: STK:CVR 
-              STK $C Register: STK:CALIB 
+              $E000E010 device: STK  
+              STK $0 register: STK:CSR 
+              STK $4 register: STK:RVR 
+              STK $8 register: STK:CVR 
+              STK $C register: STK:CALIB 
                 
             
-              $E000ED00 Device: SCB  
-              SCB $0 Register: SCB:CPUID 
-              SCB $4 Register: SCB:ICSR 
-              SCB $8 Register: SCB:VTOR 
-              SCB $C Register: SCB:AIRCR 
-              SCB $10 Register: SCB:SCR 
-              SCB $14 Register: SCB:CCR 
-              SCB $1C Register: SCB:SHPR2 
-              SCB $20 Register: SCB:SHPR3 
+              $E000ED00 device: SCB  
+              SCB $0 register: SCB:CPUID 
+              SCB $4 register: SCB:ICSR 
+              SCB $8 register: SCB:VTOR 
+              SCB $C register: SCB:AIRCR 
+              SCB $10 register: SCB:SCR 
+              SCB $14 register: SCB:CCR 
+              SCB $1C register: SCB:SHPR2 
+              SCB $20 register: SCB:SHPR3 
                 
             
-              $40010030 Device: VREFBUF  
-              VREFBUF $0 Register: VREFBUF:CSR 
-              VREFBUF $4 Register: VREFBUF:CCR 
+              $40010030 device: VREFBUF  
+              VREFBUF $0 register: VREFBUF:CSR 
+              VREFBUF $4 register: VREFBUF:CCR 
                 
             
-              $40015800 Device: DBG  
-              DBG $0 Register: DBG:IDCODE 
-              DBG $4 Register: DBG:CR 
-              DBG $8 Register: DBG:APB_FZ1 
-              DBG $C Register: DBG:APB_FZ2 
+              $40015800 device: DBG  
+              DBG $0 register: DBG:IDCODE 
+              DBG $4 register: DBG:CR 
+              DBG $8 register: DBG:APB_FZ1 
+              DBG $C register: DBG:APB_FZ2 
                 
             
-              $E000EF00 Device: NVIC_STIR  
-              NVIC_STIR $0 Register: NVIC_STIR:STIR 
+              $E000EF00 device: NVIC_STIR  
+              NVIC_STIR $0 register: NVIC_STIR:STIR 
                 
             
-              $E000E008 Device: SCB_ACTRL  
-              SCB_ACTRL $0 Register: SCB_ACTRL:ACTRL 
+              $E000E008 device: SCB_ACTRL  
+              SCB_ACTRL $0 register: SCB_ACTRL:ACTRL 
                 
             
-              $E000ED88 Device: FPU_CPACR  
-              FPU_CPACR $0 Register: FPU_CPACR:CPACR 
+              $E000ED88 device: FPU_CPACR  
+              FPU_CPACR $0 register: FPU_CPACR:CPACR 
                 
             
-              $E000EF34 Device: FPU  
-              FPU $0 Register: FPU:FPCCR 
-              FPU $4 Register: FPU:FPCAR 
-              FPU $8 Register: FPU:FPSCR 
+              $E000EF34 device: FPU  
+              FPU $0 register: FPU:FPCCR 
+              FPU $4 register: FPU:FPCAR 
+              FPU $8 register: FPU:FPSCR 
                 
             
-              $40010080 Device: SYSCFG_ITLINE  
-              SYSCFG_ITLINE $80 Register: SYSCFG_ITLINE:ITLINE0 
-              SYSCFG_ITLINE $84 Register: SYSCFG_ITLINE:ITLINE1 
-              SYSCFG_ITLINE $88 Register: SYSCFG_ITLINE:ITLINE2 
-              SYSCFG_ITLINE $8C Register: SYSCFG_ITLINE:ITLINE3 
-              SYSCFG_ITLINE $90 Register: SYSCFG_ITLINE:ITLINE4 
-              SYSCFG_ITLINE $94 Register: SYSCFG_ITLINE:ITLINE5 
-              SYSCFG_ITLINE $98 Register: SYSCFG_ITLINE:ITLINE6 
-              SYSCFG_ITLINE $9C Register: SYSCFG_ITLINE:ITLINE7 
-              SYSCFG_ITLINE $A4 Register: SYSCFG_ITLINE:ITLINE9 
-              SYSCFG_ITLINE $A8 Register: SYSCFG_ITLINE:ITLINE10 
-              SYSCFG_ITLINE $AC Register: SYSCFG_ITLINE:ITLINE11 
-              SYSCFG_ITLINE $B0 Register: SYSCFG_ITLINE:ITLINE12 
-              SYSCFG_ITLINE $B4 Register: SYSCFG_ITLINE:ITLINE13 
-              SYSCFG_ITLINE $B8 Register: SYSCFG_ITLINE:ITLINE14 
-              SYSCFG_ITLINE $BC Register: SYSCFG_ITLINE:ITLINE15 
-              SYSCFG_ITLINE $C0 Register: SYSCFG_ITLINE:ITLINE16 
-              SYSCFG_ITLINE $CC Register: SYSCFG_ITLINE:ITLINE19 
-              SYSCFG_ITLINE $D4 Register: SYSCFG_ITLINE:ITLINE21 
-              SYSCFG_ITLINE $D8 Register: SYSCFG_ITLINE:ITLINE22 
-              SYSCFG_ITLINE $DC Register: SYSCFG_ITLINE:ITLINE23 
-              SYSCFG_ITLINE $E0 Register: SYSCFG_ITLINE:ITLINE24 
-              SYSCFG_ITLINE $E4 Register: SYSCFG_ITLINE:ITLINE25 
-              SYSCFG_ITLINE $E8 Register: SYSCFG_ITLINE:ITLINE26 
-              SYSCFG_ITLINE $EC Register: SYSCFG_ITLINE:ITLINE27 
-              SYSCFG_ITLINE $F0 Register: SYSCFG_ITLINE:ITLINE28 
-              SYSCFG_ITLINE $F4 Register: SYSCFG_ITLINE:ITLINE29 
+              $40010080 device: SYSCFG_ITLINE  
+              SYSCFG_ITLINE $80 register: SYSCFG_ITLINE:ITLINE0 
+              SYSCFG_ITLINE $84 register: SYSCFG_ITLINE:ITLINE1 
+              SYSCFG_ITLINE $88 register: SYSCFG_ITLINE:ITLINE2 
+              SYSCFG_ITLINE $8C register: SYSCFG_ITLINE:ITLINE3 
+              SYSCFG_ITLINE $90 register: SYSCFG_ITLINE:ITLINE4 
+              SYSCFG_ITLINE $94 register: SYSCFG_ITLINE:ITLINE5 
+              SYSCFG_ITLINE $98 register: SYSCFG_ITLINE:ITLINE6 
+              SYSCFG_ITLINE $9C register: SYSCFG_ITLINE:ITLINE7 
+              SYSCFG_ITLINE $A4 register: SYSCFG_ITLINE:ITLINE9 
+              SYSCFG_ITLINE $A8 register: SYSCFG_ITLINE:ITLINE10 
+              SYSCFG_ITLINE $AC register: SYSCFG_ITLINE:ITLINE11 
+              SYSCFG_ITLINE $B0 register: SYSCFG_ITLINE:ITLINE12 
+              SYSCFG_ITLINE $B4 register: SYSCFG_ITLINE:ITLINE13 
+              SYSCFG_ITLINE $B8 register: SYSCFG_ITLINE:ITLINE14 
+              SYSCFG_ITLINE $BC register: SYSCFG_ITLINE:ITLINE15 
+              SYSCFG_ITLINE $C0 register: SYSCFG_ITLINE:ITLINE16 
+              SYSCFG_ITLINE $CC register: SYSCFG_ITLINE:ITLINE19 
+              SYSCFG_ITLINE $D4 register: SYSCFG_ITLINE:ITLINE21 
+              SYSCFG_ITLINE $D8 register: SYSCFG_ITLINE:ITLINE22 
+              SYSCFG_ITLINE $DC register: SYSCFG_ITLINE:ITLINE23 
+              SYSCFG_ITLINE $E0 register: SYSCFG_ITLINE:ITLINE24 
+              SYSCFG_ITLINE $E4 register: SYSCFG_ITLINE:ITLINE25 
+              SYSCFG_ITLINE $E8 register: SYSCFG_ITLINE:ITLINE26 
+              SYSCFG_ITLINE $EC register: SYSCFG_ITLINE:ITLINE27 
+              SYSCFG_ITLINE $F0 register: SYSCFG_ITLINE:ITLINE28 
+              SYSCFG_ITLINE $F4 register: SYSCFG_ITLINE:ITLINE29 
                 
             
               
