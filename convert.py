@@ -83,12 +83,12 @@ class CMSIS_SVD_Forth:
           <xsl:template match="/device">
             <xsl:for-each select="peripherals/peripheral" >
               <xsl:variable name="device" select="name" />
-              <xsl:value-of select="baseAddress" /> Device: <xsl:value-of select="$device" /> 
+              <xsl:value-of select="baseAddress" /> constant <xsl:value-of select="$device" /> 
               <xsl:text>  
               </xsl:text>
               
               <xsl:for-each select="registers/register" >
-            <xsl:value-of select="$device" /><xsl:text> </xsl:text><xsl:value-of select="addressOffset" /> Register: <xsl:value-of select="$device"/>:<xsl:value-of select="name" /> <xsl:text> 
+            <xsl:value-of select="$device" /><xsl:text> </xsl:text><xsl:value-of select="addressOffset" /> + constant <xsl:value-of select="$device"/>.<xsl:value-of select="name" /> <xsl:text> 
               </xsl:text>
               </xsl:for-each> 
               
