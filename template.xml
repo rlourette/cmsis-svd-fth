@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--STM32L053x svdcutter template.xml creator for Mecrisp-Stellaris Forth by Matthias Koch -->
+<!--By Terry Porter "terry@tjporter.com.au"-->
+<!-- NOTE: Mecrisp Stellaris enables IO PORTS A-E by default, for all other peripherals Register RCC is required-->
+
+
+<peripherals>
+  <name>DAC</name>
+  <name>DMA1</name>
+  <name>CRC</name>
+  <name>GPIOA</name>
+  <name>GPIOB</name>
+  <name>GPIOC</name>
+  <name>GPIOD</name>
+  <name>GPIOH</name>
+  <name>LCD</name>
+  <name>LPTIM</name>
+  <name>RNG</name>
+  <name>RTC</name>
+  <name>USART1</name>
+  <name>USART2</name>
+  <name>TSC</name>
+  <name>IWDG</name>
+  <name>WWDG</name>
+  <name>COMP</name>
+  <name>USB_FS</name>
+  <name>CRS</name>
+  <name>Firewall</name>
+  <name>RCC</name>
+  <name>SYSCFG</name>
+  <name>SPI1</name>
+  <name>SPI2</name>
+  <name>I2C1</name>
+  <name>I2C2</name>
+  <name>PWR</name>
+  <name>Flash</name>
+  <name>EXTI</name>
+  <name>ADC</name>
+  <name>DBGMCU</name>
+  <name>TIM2</name>
+  <name>TIM6</name>
+  <name>TIM21</name>
+  <name>TIM22</name>
+  <name>LPUSART1</name>
+  <name>NVIC</name>
+</peripherals>  
+
