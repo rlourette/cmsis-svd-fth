@@ -107,7 +107,7 @@ class CMSIS_SVD_Forth:
               </xsl:text>
               
               <xsl:for-each select="registers/register" >
-            <xsl:value-of select="$device" /><xsl:text> </xsl:text><xsl:value-of select="addressOffset" /> + constant <xsl:value-of select="$device"/>.<xsl:value-of select="name" /> <xsl:text> 
+            <xsl:value-of select="$device" /><xsl:text> </xsl:text><xsl:value-of select="addressOffset" /> + constant <xsl:value-of select="$device"/>_<xsl:value-of select="name" /> <xsl:text> 
               </xsl:text>
               </xsl:for-each> 
               
@@ -153,7 +153,7 @@ class CMSIS_SVD_Forth:
 </xsl:text>
 <xsl:text>\ </xsl:text>
 <xsl:value-of select="$device"/>
-<xsl:text>.</xsl:text>
+<xsl:text>_</xsl:text>
 <xsl:value-of select="$reg" />
 
 <!-- Register access type -->
@@ -184,7 +184,7 @@ class CMSIS_SVD_Forth:
 <xsl:variable name="bitfield" select="name"/>
 <xsl:text>: </xsl:text>
 <xsl:value-of select="$device"/>
-<xsl:text>.</xsl:text>
+<xsl:text>_</xsl:text>
 <xsl:value-of select="$reg"/>
 <xsl:text>.</xsl:text>
 <xsl:value-of select="$bitfield"/>
@@ -332,7 +332,7 @@ class CMSIS_SVD_Forth:
 
 <!-- final device_register -->
 <xsl:value-of select="$device"/>
-<xsl:text>.</xsl:text>
+<xsl:text>_</xsl:text>
 <xsl:value-of select="$reg"/>
 <!-- final device_register -->
 
@@ -367,7 +367,7 @@ class CMSIS_SVD_Forth:
 <!-- final comment -->
 <xsl:text>\ </xsl:text>
 <xsl:value-of select="$device"/>
-<xsl:text>.</xsl:text>
+<xsl:text>_</xsl:text>
 <xsl:value-of select="$reg"/>
 <xsl:text>.</xsl:text>
 <xsl:value-of select="$bitfield"/>
