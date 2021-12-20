@@ -37,7 +37,7 @@ To use this code, you need to perform the following steps:
 
 1. Download the SVD files for your target CPU. On place to find them is on the [ARM Website](http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php). This needs a simple registration.
 2. Create the FORTH code for the register definitions by running `convert.sh file.svd > file.fth`.
-3. Include `cm-devices.fth` into your FORTH project.
+3. Include `cm-devices.fth` into your FORTH project. (Not needed if using convert.py).
 4. Include the generated `file.fth`
 
 
